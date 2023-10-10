@@ -46,6 +46,6 @@ for klic, hodnota in body.items():
     print(f"{klic} ma znamku: {znamka[klic]}")
 
 with open('prospech.json', mode='w', encoding='utf-8') as file:
-    json.dump(znamka, file, ensure_ascii=False)
+    prospech_data = json.dump(znamka, file, ensure_ascii=False)
 
 print("Soubor prospech.json byl úspěšně vytvořen.")
