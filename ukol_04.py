@@ -1,5 +1,6 @@
 def mobil():
     cislo = input("Zadej cislo mobilu: +420")
+    
     if cislo.isdigit():
         if len(cislo) == 9:
             return cislo
