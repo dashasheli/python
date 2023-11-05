@@ -47,4 +47,3 @@ def dotaz():
             print("Omlouváme se, tato značka auta není k dispozici.")
 
 dotaz()
-
